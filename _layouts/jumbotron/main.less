@@ -146,17 +146,19 @@ table.news {
     h2 {margin-top: 0; border-bottom: 1px solid black; text-transform: uppercase;}
     ul.stat {
         margin-bottom: 1em;
+        margin-left: 0;
         list-style-type:none;
         font-size: 1em;
         line-height: 2.4em;
         li {
+            margin-left: 0;
             background-position: left top;
             background-repeat: no-repeat;
             background-color: transparent;
             padding-left: 2.4em;
         }
         li#blocked{background-image: url('../../assets/images/blocked.png');}
-        li#blocked:after {content: 'Tree Blocking Trail'}
+        /*li#blocked:after {content: 'Tree Blocking Trail'}*/
         li#leaning {background-image: url('../../assets/images/leaning.png');}
         li#leaning:after {content: 'Tree Leaning over Trail'}
         li#damaged {background-image: url('../../assets/images/damaged.png')}

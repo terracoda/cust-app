@@ -125,11 +125,15 @@ table.news tr.col-data {
 }
 .trail-stats ul.stat {
   margin-bottom: 1em;
+  margin-left: 0;
   list-style-type: none;
   font-size: 1em;
   line-height: 2.4em;
+  /*li#blocked:after {content: 'Tree Blocking Trail'}*/
+
 }
 .trail-stats ul.stat li {
+  margin-left: 0;
   background-position: left top;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -137,9 +141,6 @@ table.news tr.col-data {
 }
 .trail-stats ul.stat li#blocked {
   background-image: url('../../assets/images/blocked.png');
-}
-.trail-stats ul.stat li#blocked:after {
-  content: 'Tree Blocking Trail';
 }
 .trail-stats ul.stat li#leaning {
   background-image: url('../../assets/images/leaning.png');
