@@ -1,0 +1,192 @@
+/* Main styles for ECTA Custodian App */
+/* Colors */
+/* Fonts */
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('../../fonts/sourcesanspro-regular-webfont.eot');
+  src: url('../../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-regular-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('../../fonts/sourcesanspro-bold-webfont.eot');
+  src: url('../../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-bold-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url('../../fonts/sourcesanspro-light-webfont.eot');
+  src: url('../../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-light-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-light-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  height: 100%;
+  font-family: 'source_sans_proregular';
+  background-color: #1c330d;
+}
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Transparent white */
+
+  border: none;
+}
+.navbar-default .navbar-nav > li > a {
+  margin-right: 0.5em;
+  color: black;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.brand {
+  margin-top: 8%;
+  padding-left: 4%;
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  position: absolute;
+}
+footer {
+  margin: 10% auto 1%;
+  padding: 1em;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  background-color: #1c330d;
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: #508db7;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'source_sans_proregular';
+}
+h2 {
+  font-size: 1.4em;
+}
+.jumbotron {
+  margin-bottom: 0;
+  padding: 0;
+  position: relative;
+  background-color: #1c330d;
+  /*  background-image:url('../../assets/images/hero.jpg');  ****Trying to figure out how to do the hero image here */
+
+}
+.jumbotron h1 {
+  margin: 0 0 -0.2em 4%;
+  position: absolute;
+  bottom: 0;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 2px 2px #969696;
+}
+.path-info {
+  padding: 5%;
+  height: auto;
+  width: 100%;
+  background-color: #3e7396;
+}
+table.snapshot {
+  background-color: #203b4e;
+  color: white;
+}
+table.snapshot th {
+  font-size: 1.2em;
+}
+table.snapshot tr.col-data {
+  background-color: white;
+  color: #2f5772;
+  text-transform: uppercase;
+  font-family: 'source_sans_probold';
+}
+table.news {
+  background-color: #98bcd5;
+}
+table.news th {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+table.news tr.col-data {
+  font-family: 'source_sans_probold';
+}
+.trail-stats h2 {
+  margin-top: 0;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+.trail-stats ul.stat {
+  margin-bottom: 1em;
+  list-style-type: none;
+  font-size: 1em;
+  line-height: 2.4em;
+}
+.trail-stats ul.stat li {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding-left: 2.4em;
+}
+.trail-stats ul.stat li#blocked {
+  background-image: url('../../assets/images/blocked.png');
+}
+.trail-stats ul.stat li#blocked:after {
+  content: 'Tree Blocking Trail';
+}
+.trail-stats ul.stat li#leaning {
+  background-image: url('../../assets/images/leaning.png');
+}
+.trail-stats ul.stat li#leaning:after {
+  content: 'Tree Leaning over Trail';
+}
+.trail-stats ul.stat li#damaged {
+  background-image: url('../../assets/images/damaged.png');
+}
+.trail-stats ul.stat li#damaged:after {
+  content: 'Damaged Structure';
+}
+.trail-stats ul.stat li#narrowing {
+  background-image: url('../../assets/images/narrowing.png');
+}
+.trail-stats ul.stat li#narrowing:after {
+  content: 'Narrowing/Overgrown Trail';
+}
+.trail-stats ul.stat li#wet {
+  background-image: url('../../assets/images/wet.png');
+}
+.trail-stats ul.stat li#wet:after {
+  content: 'Wet/Boggy Area';
+}
+.trail-stats ul.stat li#dead {
+  background-image: url('../../assets/images/dead.png');
+}
+.trail-stats ul.stat li#dead:after {
+  content: 'Unstable/Dead Tree';
+}
+.trail-stats ul.stat li#erosion {
+  background-image: url('../../assets/images/erosion.png');
+}
+.trail-stats ul.stat li#erosion:after {
+  content: 'Erosion of Trail';
+}
+.gallery {
+  display: block;
+  background-color: #1c330d;
+}
+.gallery h2 {
+  padding-bottom: 0.5em;
+  color: white;
+}
+.gallery img {
+  width: 100%;
+  max-width: 200px;
+  overflow: hidden;
+}
