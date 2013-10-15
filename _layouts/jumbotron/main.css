@@ -89,6 +89,10 @@ h2 {
   color: white;
   text-shadow: 2px 2px 2px #969696;
 }
+#form-path-search {
+  position: absolute;
+  top: 200;
+}
 .path-info {
   padding: 5%;
   height: auto;
