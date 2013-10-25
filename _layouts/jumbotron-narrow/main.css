@@ -1,58 +1,37 @@
 /* Main styles for ECTA Custodian App */
 /* Colors */
-/*
-@primary: #1C330D;
-@secondary: #2F5772;
-*/
 /* Fonts */
-/*
 @font-face {
-    font-family: 'source_sans_proregular';
-    src: url('../../fonts/sourcesanspro-regular-webfont.eot');
-    src: url('../../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
-         url('../../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
-         url('../../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'source_sans_proregular';
+  src: url('../../fonts/sourcesanspro-regular-webfont.eot');
+  src: url('../../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-regular-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'source_sans_probold';
-    src: url('../../fonts/sourcesanspro-bold-webfont.eot');
-    src: url('../../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
-         url('../../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
-         url('../../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'source_sans_probold';
+  src: url('../../fonts/sourcesanspro-bold-webfont.eot');
+  src: url('../../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-bold-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
 @font-face {
-    font-family: 'source_sans_prolight';
-    src: url('../../fonts/sourcesanspro-light-webfont.eot');
-    src: url('../../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/sourcesanspro-light-webfont.woff') format('woff'),
-         url('../../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
-         url('../../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'source_sans_prolight';
+  src: url('../../fonts/sourcesanspro-light-webfont.eot');
+  src: url('../../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/sourcesanspro-light-webfont.woff') format('woff'), url('../../fonts/sourcesanspro-light-webfont.ttf') format('truetype'), url('../../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-*/
-/*
 body {
-    height: 100%;
-    font-family: 'source_sans_proregular';
-    background-color: @primary;
+  height: 100%;
+  font-family: 'source_sans_proregular';
+  background-color: #2f5772;
 }
-*/
 /* Transparent white */
-/*
 .navbar-default {
-  background-color: rgba(255, 255, 255, 0.7); 
+  background-color: rgba(255, 255, 255, 0.7);
   border: none;
 }
-
 .navbar-default .navbar-nav > li > a {
   margin-right: 0.5em;
   color: black;
@@ -60,88 +39,84 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-*/
-/*
-header {
-
-}
-
-.brand {
-    margin-top: 8%;
-    padding-left: 4%;
-    float: left;
-    width: 20%;
-    min-width: 200px;
-    position: absolute;
-}
-*/
-/*
 footer {
-    margin: 10% auto 1%;
-    padding: 1em;
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    background-color: @primary;
-    color: white;
-    a {color: white;}
-    a:hover {color: lighten(@secondary, 20%); text-decoration: none;}
+  margin: 0 auto 1%;
+  padding: 2em;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  background-color: #1c330d;
+  color: white;
 }
-*/
-/*
-h1, h2, h3, h4 {
-    font-family: 'source_sans_proregular';
+footer a {
+  color: white;
 }
-
-h2 {
-    font-size: 1.4em;
+footer a:hover {
+  color: #508db7;
+  text-decoration: none;
 }
-*/
-/*
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'source_sans_proregular';
+}
 .jumbotron {
-    margin-bottom: 0;
-    padding: 0;
-    position: relative;
-    background-color: @primary;*/
-/*  background-image:url('../../assets/images/hero.jpg');  ****Trying to figure out how to do the hero image here */
-/*    h1 {
-        margin: 0 0 -0.2em 4%;
-        position: absolute;
-        bottom: 0;
-        font-size: 4em;
-        color: white;
-        text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
-    }
+  margin-bottom: 2em;
+  padding: 100px 48px;
+  position: relative;
+  background-color: #1c330d;
+  background-image: url('../../assets/images/hero-narrow.jpg');
 }
-*/
+.jumbotron h1 {
+  margin: 0 0 0 0;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 2px 2px #969696;
+}
+.jumbotron h2 {
+  margin: 0 0 0 0;
+  position: absolute;
+  right: 0;
+  bottom: -1em;
+  font-size: 1em;
+  color: white;
+  text-shadow: 2px 2px 2px #969696;
+}
 /*
 #form-path-search {
     position: absolute;
     top: 200;
 }
-
+*/
+/*
 .path-info {
     padding: 5%;
     height: auto;
     width: 100%;
     background-color: lighten(@secondary, 10%);
 }
-
+ */
 table.snapshot {
-    background-color: darken(@secondary, 10%);
-    color: white;
-    th {font-size: 1.2em}
-    tr.col-data {
-        background-color: white;
-        color: @secondary;
-        text-transform: uppercase;
-        font-family: 'source_sans_probold';
-    }
+  background-color: #203b4e;
+  color: white;
 }
-
-table.news {
+table.snapshot th {
+  font-size: 1.2em;
+}
+table.snapshot tr.col-data {
+  background-color: white;
+  color: #2f5772;
+  text-transform: uppercase;
+  font-family: 'source_sans_probold';
+}
+/*
+.news {
     background-color: lighten(@secondary, 40%);
-    th {font-size: 1.2em; text-transform: uppercase;}
+    li {font-size: 1.2em; text-transform: uppercase;}
     tr.col-data {
         font-family: 'source_sans_probold';
     }
@@ -185,18 +160,16 @@ ul.stat li#dead {
 ul.stat li#erosion {
   background-image: url('../../assets/images/erosion.png');
 }
-/*
 .gallery {
-    display: block;
-    background-color: @primary;
-    h2 {
-        padding-bottom: 0.5em;
-        color: white;
-    }
-    img {
-        width: 100%;
+  background-color: #1c330d;
+  padding-bottom: 4em;
+}
+.gallery h3 {
+  color: white;
+}
+.gallery img {
+  /* width: 100%;
         max-width: 200px;
-        overflow: hidden;
+        overflow: hidden;*/
+
 }
-}
-*/

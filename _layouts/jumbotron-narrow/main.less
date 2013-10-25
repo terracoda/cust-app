@@ -1,14 +1,11 @@
 /* Main styles for ECTA Custodian App */
 
-
-
 /* Colors */
-/*
+
 @primary: #1C330D;
 @secondary: #2F5772;
-*/
+
 /* Fonts */
-/*
 @font-face {
     font-family: 'source_sans_proregular';
     src: url('../../fonts/sourcesanspro-regular-webfont.eot');
@@ -41,16 +38,15 @@
     font-weight: normal;
     font-style: normal;
 }
-*/
-/*
+
+
 body {
     height: 100%;
     font-family: 'source_sans_proregular';
-    background-color: @primary;
+    background-color: @secondary;
 }
-*/
+
 /* Transparent white */
-/*
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.7); 
   border: none;
@@ -63,25 +59,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-*/
-/*
-header {
 
-}
-
-.brand {
-    margin-top: 8%;
-    padding-left: 4%;
-    float: left;
-    width: 20%;
-    min-width: 200px;
-    position: absolute;
-}
-*/
-/*
 footer {
-    margin: 10% auto 1%;
-    padding: 1em;
+    margin: 0 auto 1%;
+    padding: 2em;
     height: 10%;
     width: 100%;
     text-align: center;
@@ -90,45 +71,51 @@ footer {
     a {color: white;}
     a:hover {color: lighten(@secondary, 20%); text-decoration: none;}
 }
-*/
-/*
+
 h1, h2, h3, h4 {
     font-family: 'source_sans_proregular';
 }
 
-h2 {
-    font-size: 1.4em;
-}
-*/
-/*
 .jumbotron {
-    margin-bottom: 0;
-    padding: 0;
+    margin-bottom: 2em;
+    padding: 100px 48px; 
     position: relative;
-    background-color: @primary;*/
-/*  background-image:url('../../assets/images/hero.jpg');  ****Trying to figure out how to do the hero image here */
-/*    h1 {
-        margin: 0 0 -0.2em 4%;
+    background-color: @primary;
+    background-image:url('../../assets/images/hero-narrow.jpg');
+    h1 {
+        margin: 0 0 0 0;
         position: absolute;
-        bottom: 0;
+        left: 0;
+		bottom: -20px;
         font-size: 4em;
         color: white;
         text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
     }
+	h2 {
+	       margin: 0 0 0 0;
+	       position: absolute;
+	       right: 0;
+	   	   bottom: -1em;
+	       font-size: 1em;
+	       color: white;
+	       text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+	   }
 }
-*/
+
 /*
 #form-path-search {
     position: absolute;
     top: 200;
 }
-
+*/
+/*
 .path-info {
     padding: 5%;
     height: auto;
     width: 100%;
     background-color: lighten(@secondary, 10%);
 }
+ */
 
 table.snapshot {
     background-color: darken(@secondary, 10%);
@@ -142,9 +129,10 @@ table.snapshot {
     }
 }
 
-table.news {
+/*
+.news {
     background-color: lighten(@secondary, 40%);
-    th {font-size: 1.2em; text-transform: uppercase;}
+    li {font-size: 1.2em; text-transform: uppercase;}
     tr.col-data {
         font-family: 'source_sans_probold';
     }
@@ -178,18 +166,16 @@ ul.stat {
     li#erosion {background-image: url('../../assets/images/erosion.png')}
 }
 
-/*
 .gallery {
-    display: block;
     background-color: @primary;
-    h2 {
-        padding-bottom: 0.5em;
+	padding-bottom: 4em;
+	
+    h3 {
         color: white;
     }
     img {
-        width: 100%;
+	   /* width: 100%;
         max-width: 200px;
-        overflow: hidden;
+        overflow: hidden;*/
 }
 }
-*/
