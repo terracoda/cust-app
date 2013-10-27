@@ -160,6 +160,12 @@ ul.stats li#dead {
 ul.stats li#erosion {
   background-image: url('../../assets/images/erosion.png');
 }
+ul.stats li#clarification {
+  background-image: url('../../assets/images/clarification.png');
+}
+ul.stats li#hazard {
+  background-image: url('../../assets/images/hazard.png');
+}
 .gallery {
   background-color: #1c330d;
   padding-bottom: 4em;
