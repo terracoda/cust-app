@@ -24,23 +24,35 @@
   </head>
 
   <body>
+	<!-- Fixed navbar -->
+    <section class="navbar navbar-default navbar-fixed-top">
+      <nav class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Custodian Reporting</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Reports</a></li>
+            <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Handbook <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Section 1</a></li>
+			          <li><a href="#">Section 2</a></li>
+			          <li><a href="#">Section 3</a></li>
+			        </ul>
+			      </li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </nav>
+    </section>
+    <!-- end fixed navbar -->
     <div class="container">
-      <nav class="navbar navbar-default navbar-fixed-top">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	    </div>
-	    <div class="navbar-collapse collapse">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Reports</a></li>
-	        <li><a href="#">Handbook</a></li>
-	        <li><a href="#">Profile</a></li>
-	      </ul>
-	    </div><!--/.navbar-collapse -->
-	  </nav><!-- end nav -->
       <div class="jumbotron">
 		<h1>Path Name</h1>
 		  <h2>Custodian Name</h2>		
@@ -55,42 +67,38 @@
       </div><!-- end jumbotron -->
 	
       <div class="row">
-        <section class="col-lg-7">			
+        <section class="col-lg-6">			
 			<div class="panel panel-success">
 			  <header class="panel-heading">
-			    <h3 class="panel-title">Reports</h3>
+			    <h2 class="panel-title">Reports</h2>
 			  </header>
-			  <table class="table table-hover">
+				<table class="table table-hover">
 				<thead>
 				  <tr>
 				    <th>Date</th>
-				    <th>Custodian</th>
 				    <th>Status</th>
 				  </tr> 
 				</thead>
 			    <tbody>
 				  <tr>
 					<td>November 20, 2013</td>
-					<td>Tali &amp; Anand</td>
-					<td><button type="button" class="btn btn-danger">In Progress</button></td>
+					<td><button type="button" class="btn btn-danger btn-sm">In Progress</button></td>
 				  </tr>
 				  <tr>
 				    <td>May 16, 2013</td>
-					<td>Tali &amp; Anand</td>
-					<td><button type="button" class="btn btn-default">Completed</button></td>
+					<td><button type="button" class="btn btn-default btn-sm">Completed</button></td>
 				  </tr>
 				  <tr>
 				    <td>November 25, 2012</td>
-					<td>Tali &amp; Anand</td>
-					<td><button type="button" class="btn btn-default">Completed</button></td>
+					<td><button type="button" class="btn btn-default btn-sm">Completed</button></td>
 				  </tr>
 				  <tr>
 				    <td>June 5, 2012</td>
-					<td>Tali &amp; Anand</td>
-					<td><button type="button" class="btn btn-default">Completed</button></td>
+					<td><button type="button" class="btn btn-default btn-sm">Completed</button></td>
 				  </tr>
 			    </tbody>
 			  </table>
+			 <div class="panel-footer"><a class="btn btn-info btn-sm" href="#">More reports</a></div>
 			</div><!-- end panel -->
 						
 			<div class="panel panel-info">
@@ -114,46 +122,51 @@
 			        <p>Message snippet...</p>
 			      </li>
 			    </ul>
+			<div class="panel-footer"><a class="btn btn-info btn-sm" href="#">More news</a></div>
 			</div>  <!-- end panel -->        
         </section><!-- end col-7 -->
 
-		<section class="col-lg-5">
-		  <div class="panel panel-success">
-		    <header class="panel-heading">
-		      <h3 class="panel-title">Trail Stats</h3>
+		<section class="col-lg-6">
+		  <div class="panel well">
+		    <header>
+		      <h2>Trail Stats</h2>
 		    </header>
-		      	<ul class="list-group stats">
-					<li class="list-group-item" id="blocked"><span class="badge">00</span> Trees blocking trail</li>
-		            <li class="list-group-item" id="leaning"><span class="badge">00</span> Trees leaning over trail</li>
-					<li class="list-group-item" id="dead"><span class="badge">00</span> Unstable/dead trees</li>		            
-		            <li class="list-group-item" id="narrowing"><span class="badge">00</span> Narrowing/overgrown trail</li>
-		            <li class="list-group-item" id="wet"><span class="badge">00</span> Wet/boggy areas on trail</li>
-		            <li class="list-group-item" id="erosion"><span class="badge">00</span> Erosion areas on/near trail</li>
-					<li class="list-group-item" id="damaged"><span class="badge">00</span> Damaged structures</li>
-					<li class="list-group-item" id="clarification"><span class="badge">00</span> Clarification needed</li>
-					<li class="list-group-item" id="hazard"><span class="badge">00</span> Hazard (miscellaneous)</li>				  
-				</ul>
+		    	<ul class="list-group stats">
+		      	<li class="list-group-item" id="blocked"><span class="badge">00</span> Trees blocking trail</li>
+		        <li class="list-group-item" id="leaning"><span class="badge">00</span> Trees leaning over trail</li>
+		      	<li class="list-group-item" id="dead"><span class="badge">00</span> Unstable/dead trees</li>		            
+		        <li class="list-group-item" id="narrowing"><span class="badge">00</span> Narrow/overgrown trail</li>
+		        <li class="list-group-item" id="wet"><span class="badge">00</span> Wet/boggy areas on trail</li>
+		        <li class="list-group-item" id="erosion"><span class="badge">00</span> Erosion on/near trail</li>
+		      	<li class="list-group-item" id="damaged"><span class="badge">00</span> Damaged structures</li>
+		      	<li class="list-group-item" id="clarification"><span class="badge">00</span> Clarification needed</li>
+		      	<li class="list-group-item" id="hazard"><span class="badge">00</span> Hazard (miscellaneous)</li>				  
+		      </ul>
 		  </div> 
 		
 		<div class="panel panel-primary">
 		    <header class="panel-heading">
-		      <h3 class="panel-title">Custodian Tools</h3>
+		      <h2 class="panel-title">Custodian Tools</h2>
 		    </header>
 		      	<ul class="list-group">
 					<li class="list-group-item"><a href="#">Custodian Path Map</a></li>
-		            <li class="list-group-item"><a href="#">Custodian Quick Notes</a></li>				  
+		            <li class="list-group-item"><a href="#">Custodian Quick Notes</a></li>
+					<li class="list-group-item">For more information see the <a href="#">Handbook</a></li>				  
 				</ul>
 		  </div>        
         </section><!-- end col-5 -->
 	  </div><!-- end row -->
 	  <section class="container gallery">
 		<div class="row">
-		  <header class="col-lg-12"><h3>Recent Images</h3></header>
+		  <header class="col-lg-12"><h2>Recent Images</h2></header>
 	    	<div class="col-lg-3"><a href="#"><img class="img-thumbnail" src="../../assets/images/gallery1.png" alt="Gallery 1"></a></div>
 	    	<div class="col-lg-3"><a href="#"><img class="img-thumbnail" src="../../assets/images/gallery2.png" alt="Gallery 2"></a></div>
 	    	<div class="col-lg-3"><a href="#"><img class="img-thumbnail" src="../../assets/images/gallery3.png" alt="Gallery 3"></a></div>
 	    	<div class="col-lg-3"><a href="#"><img class="img-thumbnail" src="../../assets/images/gallery4.png" alt="Gallery 4"></a></div>
 	    </div>
+		<footer class="row">
+			<a class="btn btn-success btn-lg" href="#">Photo gallery</a>
+		</footer>
 	 </section>
 	
 
@@ -161,7 +174,7 @@
         <p>&copy; East Coast Trail Association 2013</p>
       </footer>
 
-    </div> <!-- /container -->
+    </div> <!-- end container -->
 
 
     <!-- Bootstrap core JavaScript

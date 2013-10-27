@@ -62,11 +62,12 @@ h4 {
   font-family: 'source_sans_proregular';
 }
 .jumbotron {
+  margin-top: 2.75em;
   margin-bottom: 2em;
   padding: 100px 48px;
   position: relative;
   background-color: #1c330d;
-  background-image: url('../../assets/images/hero-narrow.jpg');
+  background-image: url('../../assets/images/map-spurwink.jpg');
 }
 .jumbotron h1 {
   margin: 0 0 0 0;
@@ -170,7 +171,7 @@ ul.stats li#hazard {
   background-color: #1c330d;
   padding-bottom: 4em;
 }
-.gallery h3 {
+.gallery h2 {
   color: white;
 }
 .gallery img {
