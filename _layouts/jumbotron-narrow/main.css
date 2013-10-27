@@ -122,42 +122,42 @@ table.snapshot tr.col-data {
     }
 }
 */
-ul.stat {
+ul.stats {
   margin-bottom: 1em;
   margin-left: 0;
   list-style-type: none;
   font-size: 1em;
   line-height: 2.4em;
 }
-ul.stat li {
+ul.stats li {
   margin-left: 0;
   padding-left: 2.5em;
   background-position: 0 50%;
   background-repeat: no-repeat;
   background-color: transparent;
 }
-ul.stat li .badge {
+ul.stats li .badge {
   margin-top: 7px;
 }
-ul.stat li#blocked {
+ul.stats li#blocked {
   background-image: url('../../assets/images/blocked.png');
 }
-ul.stat li#leaning {
+ul.stats li#leaning {
   background-image: url('../../assets/images/leaning.png');
 }
-ul.stat li#damaged {
+ul.stats li#damaged {
   background-image: url('../../assets/images/damaged.png');
 }
-ul.stat li#narrowing {
+ul.stats li#narrowing {
   background-image: url('../../assets/images/narrowing.png');
 }
-ul.stat li#wet {
+ul.stats li#wet {
   background-image: url('../../assets/images/wet.png');
 }
-ul.stat li#dead {
+ul.stats li#dead {
   background-image: url('../../assets/images/dead.png');
 }
-ul.stat li#erosion {
+ul.stats li#erosion {
   background-image: url('../../assets/images/erosion.png');
 }
 .gallery {
